@@ -2,7 +2,7 @@
 
 import Section from "./Section";
 import { motion } from "framer-motion";
-import { ExternalLink, Code } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import { GithubIcon } from "./Icons";
 
 const projects = [

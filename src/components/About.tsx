@@ -45,7 +45,7 @@ export default function About() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {skills.map((skill, index) => (
+          {skills.map((skill) => (
             <motion.div
               key={skill.title}
               whileHover={{ y: -5, scale: 1.02 }}
